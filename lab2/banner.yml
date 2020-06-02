@@ -5,22 +5,7 @@
   gather_facts: no
 
   vars:
-    banner_message: VVVVVVVV           VVVVVVVVTTTTTTTTTTTTTTTTTTTTTTT     HHHHHHHHH     HHHHHHHHH     OOOOOOOOO     KKKKKKKKK    KKKKKKKIIIIIIIIIIEEEEEEEEEEEEEEEEEEEEEE   SSSSSSSSSSSSSSS 
-      V      V           V      VT                     T     H       H     H       H   OO         OO   K       K    K     KI        IE                    E SS               S
-      V      V           V      VT                     T     H       H     H       H OO             OO K       K    K     KI        IE                    ES     SSSSSS      S
-      V      V           V      VT     TT       TT     T     HH      H     H      HHO       OOO       OK       K   K      KII      IIEE      EEEEEEEEE    ES     S     SSSSSSS
-       V     V           V     V TTTTTT  T     T  TTTTTT       H     H     H     H  O      O   O      OKK      K  K     KKK  I    I    E     E       EEEEEES     S            
-        V     V         V     V          T     T               H     H     H     H  O     O     O     O  K     K K     K     I    I    E     E             S     S            
-         V     V       V     V           T     T               H      HHHHH      H  O     O     O     O  K      K     K      I    I    E      EEEEEEEEEE    S    SSSS         
-          V     V     V     V            T     T               H                 H  O     O     O     O  K           K       I    I    E               E     SS      SSSSS    
-           V     V   V     V             T     T               H                 H  O     O     O     O  K           K       I    I    E               E       SSS        SS  
-            V     V V     V              T     T               H      HHHHH      H  O     O     O     O  K      K     K      I    I    E      EEEEEEEEEE          SSSSSS    S 
-             V     V     V               T     T               H     H     H     H  O     O     O     O  K     K K     K     I    I    E     E                         S     S
-              V         V                T     T               H     H     H     H  O      O   O      OKK      K  K     KKK  I    I    E     E       EEEEEE            S     S
-               V       V               TT       TT           HH      H     H      HHO       OOO       OK       K   K      KII      IIEE      EEEEEEEE     ESSSSSSS     S     S
-                V     V                T         T           H       H     H       H OO             OO K       K    K     KI        IE                    ES      SSSSSS     S
-                 V   V                 T         T           H       H     H       H   OO         OO   K       K    K     KI        IE                    ES               SS 
-                  VVV                  TTTTTTTTTTT           HHHHHHHHH     HHHHHHHHH     OOOOOOOOO     KKKKKKKKK    KKKKKKKIIIIIIIIIIEEEEEEEEEEEEEEEEEEEEEE SSSSSSSSSSSSSSS
+    banner_message: banner_message
   tasks:
   - name: "Update banner message to '{{ banner_message }}'"
     ios_config:
