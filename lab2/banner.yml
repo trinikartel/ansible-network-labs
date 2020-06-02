@@ -5,7 +5,7 @@
   gather_facts: no
 
   vars:
-    banner_message:  "__\ntest___"
+    banner_message:  "__\ntest \ d___"
   tasks:
   - name: "Update banner message to '{{ banner_message }}'"
     ios_config:
