@@ -5,7 +5,7 @@
   gather_facts: no
 
   vars:
-    banner_message:  "VVVVVVVV           VVVVVVVVTTTTTTTTTTTTTTTTTTTTTTT     HHHHHHHHH     HHHHHHHHH     OOOOOOOOO     KKKKKKKKK    KKKKKKKIIIIIIIIIIEEEEEEEEEEEEEEEEEEEEEE   SSSSSSSSSSSSSSS 
+    banner_message:  VVVVVVVV           VVVVVVVVTTTTTTTTTTTTTTTTTTTTTTT     HHHHHHHHH     HHHHHHHHH     OOOOOOOOO     KKKKKKKKK    KKKKKKKIIIIIIIIIIEEEEEEEEEEEEEEEEEEEEEE   SSSSSSSSSSSSSSS 
 V      V           V      VT                     T     H       H     H       H   OO         OO   K       K    K     KI        IE                    E SS               S
 V      V           V      VT                     T     H       H     H       H OO             OO K       K    K     KI        IE                    ES     SSSSSS      S
 V      V           V      VT     TT       TT     T     HH      H     H      HHO       OOO       OK       K   K      KII      IIEE      EEEEEEEEE    ES     S     SSSSSSS
@@ -20,7 +20,7 @@ V      V           V      VT     TT       TT     T     HH      H     H      HHO 
          V       V               TT       TT           HH      H     H      HHO       OOO       OK       K   K      KII      IIEE      EEEEEEEE     ESSSSSSS     S     S
           V     V                T         T           H       H     H       H OO             OO K       K    K     KI        IE                    ES      SSSSSS     S
            V   V                 T         T           H       H     H       H   OO         OO   K       K    K     KI        IE                    ES               SS 
-            VVV                  TTTTTTTTTTT           HHHHHHHHH     HHHHHHHHH     OOOOOOOOO     KKKKKKKKK    KKKKKKKIIIIIIIIIIEEEEEEEEEEEEEEEEEEEEEE SSSSSSSSSSSSSSS "
+            VVV                  TTTTTTTTTTT           HHHHHHHHH     HHHHHHHHH     OOOOOOOOO     KKKKKKKKK    KKKKKKKIIIIIIIIIIEEEEEEEEEEEEEEEEEEEEEE SSSSSSSSSSSSSSS
   tasks:
   - name: "Update banner message to '{{ banner_message }}'"
     ios_config:
